@@ -37,3 +37,15 @@ Completed program should:
   - Deleting a resource by ID (DELETE)
 - Use in-memory storage (a Python list) for the resource data
 - Return appropriate status codes and messages for each operation
+
+### 🛠️ Add Input Validation and Error Handling
+
+#### Description
+Enhance your API with input validation and custom error handling.
+
+#### Requirements
+Completed program should:
+
+- Validate incoming data using Pydantic models
+- Return helpful error messages for invalid input
+- Handle 404 errors for missing resources
